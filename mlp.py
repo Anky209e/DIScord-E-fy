@@ -38,7 +38,7 @@ rewframe.pack()
 # creating menu bar
 menubar = Menu(root)
 
-# root.iconbitmap(r'favicon.ico')
+root.iconbitmap(r'favicon.ico')
 
 root.config(menu = menubar)
 filelabel = Label(root,text="Let's Chill Dude!",fg="blue",relief=FLAT)
